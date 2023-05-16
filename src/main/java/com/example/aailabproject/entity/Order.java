@@ -1,9 +1,11 @@
 package com.example.aailabproject.entity;
 
 
-import jakarta.persistence.*;
-//import jakarta.validation.constraints.NotBlank;
-//import jakarta.validation.constraints.Size;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
